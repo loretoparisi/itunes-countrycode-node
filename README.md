@@ -1,5 +1,5 @@
 ### itunes-countrycode-node
-Retrieve (StoreFrontId, CountryCode) tuples used in  iTunes Search API
+Retrieve (StoreFrontId, CountryCode) tuples used in  iTunes Search API.
 
 ###Example
 
@@ -44,7 +44,10 @@ The script output is a associative array with `ISO 3166-1` country code as keys.
 ```
 
 ###Usage
+
+```bash
 node itunes.js 
+```
 
 ###Note
 - The data source is the iTunes Affiliate page: https://affiliate.itunes.apple.com/resources/documentation/linking-to-the-itunes-music-store/
